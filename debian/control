@@ -1,0 +1,115 @@
+Source: libkf5mailcommon
+Section: libs
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Norbert Preining <norbert@preining.info>,
+           Sandro Knauß <hefee@debian.org>,
+Build-Depends: cmake (>= 3.16~),
+               dbus,
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.83.0~),
+               libkf5akonadi-dev (>= 4:21.08.1~),
+               libkf5akonadicontact-dev (>= 4:21.08.1~),
+               libkf5akonadimime-dev (>= 4:21.08.1~),
+               libkf5archive-dev (>= 5.83.0~),
+               libkf5codecs-dev (>= 5.71.0~),
+               libkf5completion-dev (>= 5.83.0~),
+               libkf5config-dev (>= 5.83.0~),
+               libkf5configwidgets-dev (>= 5.83.0~),
+               libkf5dbusaddons-dev (>= 5.83.0~),
+               libkf5grantleetheme-dev (>= 21.08.1~),
+               libkf5guiaddons-dev (>= 5.83.0~),
+               libkf5i18n-dev (>= 5.83.0~),
+               libkf5iconthemes-dev (>= 5.83.0~),
+               libkf5itemmodels-dev (>= 5.83.0~),
+               libkf5itemviews-dev (>= 5.83.0~),
+               libkf5kio-dev (>= 5.83.0~),
+               libkf5libkdepim-dev (>= 4:21.08.1~),
+               libkf5mailimporter-dev (>= 4:21.08.1~),
+               libkf5mailtransport-dev (>= 21.08.1~),
+               libkf5messagecomposer-dev (>= 4:21.08.1~),
+               libkf5messagecore-dev (>= 4:21.08.1~),
+               libkf5messagelist-dev (>= 4:21.08.1~),
+               libkf5messageviewer-dev (>= 4:21.08.1~),
+               libkf5mime-dev (>= 21.08.1~),
+               libkf5pimcommon-dev (>= 4:21.08.1~),
+               libkf5syntaxhighlighting-dev (>= 5.83.0~),
+               libkf5templateparser-dev (>= 4:21.08.1~),
+               libkf5textwidgets-dev (>= 5.83.0~),
+               libkf5widgetsaddons-dev (>= 5.83.0~),
+               libkf5xmlgui-dev (>= 5.83.0~),
+               libphonon4qt5-dev (>= 4.10.60~),
+               libphonon4qt5experimental-dev,
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.15.0~),
+               qttools5-dev (>= 5.4.0~),
+               xauth,
+               xsltproc,
+               xvfb,
+Standards-Version: 4.6.0
+Homepage: https://invent.kde.org/pim/mailcommon
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/mailcommon
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/mailcommon.git
+Rules-Requires-Root: no
+
+Package: libkf5mailcommon-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Breaks: libkf5mailcommon-plugins (<< 4:19.08.2-1~)
+Replaces: libkf5mailcommon-plugins (<< 4:19.08.2-1~)
+Description: KDE PIM email utility library, shared data
+ The mail common library provides utility functions for dealing with email.
+ .
+ This package contains the shared data distributed with the library.
+ .
+ This package is part of KDE PIM module.
+
+Package: libkf5mailcommon-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5akonadi-dev (>= 4:21.08.1~),
+         libkf5akonadimime-dev (>= 4:21.08.1~),
+         libkf5config-dev (>= 5.83.0~),
+         libkf5libkdepim-dev (>= 4:21.08.1~),
+         libkf5mailcommon5abi2 (= ${binary:Version}),
+         libkf5messagecomposer-dev (>= 4:21.08.1~),
+         libkf5messagecore-dev (>= 4:21.08.1~),
+         libkf5messageviewer-dev (>= 4:21.08.1~),
+         libkf5pimcommon-dev (>= 4:21.08.1~),
+         qtbase5-dev (>= 5.15.0~),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: KDE PIM email utility library, devel files
+ The mail common library provides utility functions for dealing with email.
+ .
+ This package contains the development files needed for the KDE PIM mail common
+ library.
+ .
+ This package is part of KDE PIM module.
+
+Package: libkf5mailcommon-plugins
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5mailcommon-data (<< 4:19.08.2-1~)
+Description: KDE PIM email utility library, plugins
+ The mail common library provides utility functions for dealing with email.
+ .
+ This package contains the plugins distributed with the library.
+ .
+ This package is part of KDE PIM module.
+
+Package: libkf5mailcommon5abi2
+X-Debian-ABI: 2
+X-CMake-Target: KF5MailCommon
+Architecture: any
+Multi-Arch: same
+Depends: libkf5mailcommon-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: KDE PIM email utility library
+ The mail common library provides utility functions for dealing with email.
+ .
+ This package is part of KDE PIM module.
+Provides: ${ABI:VirtualPackage}

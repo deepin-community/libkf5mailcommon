@@ -1,0 +1,286 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: mailcommon
+Upstream-Contact: kde-devel@kde.org
+Source: https://invent.kde.org/pim/mailcommon
+
+Files: *
+Copyright: 2010, Andras Mantia <andras@kdab.com>
+           2003, Andreas Gungl <a.gungl@gmx.de>
+           2004, Carsten Burghardt <burghardt@kde.org>
+           2017, Daniel Vrátil <dvratil@kde.org>
+           2004-2017, David Faure <faure@kde.org>
+           2013, Jonathan Marten <jjm@keelhaul.me.uk>
+           1997-2010, KMail authors
+           1997-2010, KMail-Autoren
+           2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2009-2018, Montel Laurent <montel@kde.org>
+           2010-2015, This_file_is_part_of_KDE
+           2007, Till Adam <adam@kde.org>
+           2015, Tomas Trnka <tomastrnka@gmx.com>
+           2003, Zack Rusin <zack@kde.org>
+           1997-2010, autorzy KMail
+           1997-2010, gli autori di KMail
+License: GPL-2
+
+Files: autotests/foldertreewidgettest.cpp
+       src/filter/filteractions/filteraction.cpp
+       src/filter/filteractions/filteraction.h
+       src/filter/filteractions/filteractionaddheader.cpp
+       src/filter/filteractions/filteractionaddheader.h
+       src/filter/filteractions/filteractionaddtag.cpp
+       src/filter/filteractions/filteractionaddtag.h
+       src/filter/filteractions/filteractionaddtoaddressbook.cpp
+       src/filter/filteractions/filteractionaddtoaddressbook.h
+       src/filter/filteractions/filteractioncopy.cpp
+       src/filter/filteractions/filteractioncopy.h
+       src/filter/filteractions/filteractiondecrypt.cpp
+       src/filter/filteractions/filteractiondecrypt.h
+       src/filter/filteractions/filteractiondelete.cpp
+       src/filter/filteractions/filteractiondelete.h
+       src/filter/filteractions/filteractiondict.cpp
+       src/filter/filteractions/filteractiondict.h
+       src/filter/filteractions/filteractionencrypt.cpp
+       src/filter/filteractions/filteractionencrypt.h
+       src/filter/filteractions/filteractionexec.cpp
+       src/filter/filteractions/filteractionexec.h
+       src/filter/filteractions/filteractionforward.cpp
+       src/filter/filteractions/filteractionforward.h
+       src/filter/filteractions/filteractionmove.cpp
+       src/filter/filteractions/filteractionmove.h
+       src/filter/filteractions/filteractionpipethrough.cpp
+       src/filter/filteractions/filteractionpipethrough.h
+       src/filter/filteractions/filteractionplaysound.cpp
+       src/filter/filteractions/filteractionplaysound.h
+       src/filter/filteractions/filteractionredirect.cpp
+       src/filter/filteractions/filteractionredirect.h
+       src/filter/filteractions/filteractionremoveheader.cpp
+       src/filter/filteractions/filteractionremoveheader.h
+       src/filter/filteractions/filteractionreplyto.cpp
+       src/filter/filteractions/filteractionreplyto.h
+       src/filter/filteractions/filteractionrewriteheader.cpp
+       src/filter/filteractions/filteractionrewriteheader.h
+       src/filter/filteractions/filteractionsendfakedisposition.cpp
+       src/filter/filteractions/filteractionsendfakedisposition.h
+       src/filter/filteractions/filteractionsendreceipt.cpp
+       src/filter/filteractions/filteractionsendreceipt.h
+       src/filter/filteractions/filteractionsetidentity.cpp
+       src/filter/filteractions/filteractionsetidentity.h
+       src/filter/filteractions/filteractionsetstatus.cpp
+       src/filter/filteractions/filteractionsetstatus.h
+       src/filter/filteractions/filteractionsettransport.cpp
+       src/filter/filteractions/filteractionsettransport.h
+       src/filter/filteractions/filteractionwidget.cpp
+       src/filter/filteractions/filteractionwidget.h
+       src/filter/filteractions/filteractionwithaddress.cpp
+       src/filter/filteractions/filteractionwithaddress.h
+       src/filter/filteractions/filteractionwithcommand.cpp
+       src/filter/filteractions/filteractionwithcommand.h
+       src/filter/filteractions/filteractionwithcrypto.cpp
+       src/filter/filteractions/filteractionwithcrypto.h
+       src/filter/filteractions/filteractionwithfolder.cpp
+       src/filter/filteractions/filteractionwithfolder.h
+       src/filter/filteractions/filteractionwithnone.cpp
+       src/filter/filteractions/filteractionwithnone.h
+       src/filter/filteractions/filteractionwithstring.cpp
+       src/filter/filteractions/filteractionwithstring.h
+       src/filter/filteractions/filteractionwithstringlist.cpp
+       src/filter/filteractions/filteractionwithstringlist.h
+       src/filter/filteractions/filteractionwithtest.cpp
+       src/filter/filteractions/filteractionwithtest.h
+       src/filter/filteractions/filteractionwithuoid.cpp
+       src/filter/filteractions/filteractionwithuoid.h
+       src/filter/filteractions/filteractionwithurl.cpp
+       src/filter/filteractions/filteractionwithurl.h
+       src/filter/itemcontext.cpp
+       src/filter/itemcontext.h
+       src/filter/kmfilterdialog.cpp
+       src/filter/kmfilterdialog.h
+       src/filter/mailfilter.cpp
+       src/filter/mailfilter.h
+       src/filter/mdnadvicedialog.cpp
+       src/filter/mdnadvicedialog.h
+       src/filter/soundtestwidget.cpp
+       src/filter/soundtestwidget.h
+       src/interfaces/rulewidgethandler.h
+       src/search/searchpattern.cpp
+       src/search/searchpattern.h
+       src/search/searchpatternedit.cpp
+       src/search/searchpatternedit.h
+       src/search/widgethandler/rulewidgethandlermanager.cpp
+       src/search/widgethandler/rulewidgethandlermanager.h
+       src/snippets/snippetdialog.cpp
+       src/snippets/snippetdialog.h
+       src/util/cryptoutils.cpp
+       src/util/cryptoutils.h
+       src/util/mailutil.cpp
+       src/util/mailutil.h
+       src/util/mailutil_p.h
+Copyright: 2012, Andras Mantia <amantia@kde.org>
+           2010, Andras Mantia <andras@kdab.com>
+           2017, Daniel Vrátil <dvratil@kde.org>
+           2016, David Faure <faure@kde.org>
+           1951, Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+           1989-1991, Free Software Foundation, Inc
+           2004, Ingo Kloecker <kloecker@kde.org>
+           2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2011-2018, Laurent Montel <montel@kde.org>
+           2001, Marc Mutz <mutz@kde.org>
+           2009, Michael Leupold <lemma@confuego.org>
+           2007, Robert Gruber
+           1996-1998, Stefan Taferner <taferner@kde.org>
+           2005, Till Adam
+License: GPL-2+
+
+Files: autotests/favoritestest.cpp
+       src/collectionpage/attributeregistrar.cpp
+       src/filter/autotests/filteractionmissingaccountdialogtest.cpp
+       src/filter/autotests/filteractionmissingaccountdialogtest.h
+       src/filter/autotests/filteractionmissingidentitydialogtest.cpp
+       src/filter/autotests/filteractionmissingidentitydialogtest.h
+       src/filter/autotests/filteractionmissingsoundurldialogtest.cpp
+       src/filter/autotests/filteractionmissingsoundurldialogtest.h
+       src/filter/autotests/filteractionmissingtagdialogtest.cpp
+       src/filter/autotests/filteractionmissingtagdialogtest.h
+       src/filter/autotests/filteractionmissingtemplatedialogtest.cpp
+       src/filter/autotests/filteractionmissingtemplatedialogtest.h
+       src/filter/autotests/filteractionmissingtransportdialogtest.cpp
+       src/filter/autotests/filteractionmissingtransportdialogtest.h
+       src/filter/autotests/filteractionpipethroughtest.cpp
+       src/filter/autotests/filteractionpipethroughtest.h
+       src/filter/dialog/filteractionmissingaccountdialog.cpp
+       src/filter/dialog/filteractionmissingaccountdialog.h
+       src/filter/dialog/filteractionmissingidentitydialog.cpp
+       src/filter/dialog/filteractionmissingidentitydialog.h
+       src/filter/dialog/filteractionmissingsoundurldialog.cpp
+       src/filter/dialog/filteractionmissingsoundurldialog.h
+       src/filter/dialog/filteractionmissingtagdialog.cpp
+       src/filter/dialog/filteractionmissingtagdialog.h
+       src/filter/dialog/filteractionmissingtemplatedialog.cpp
+       src/filter/dialog/filteractionmissingtemplatedialog.h
+       src/filter/dialog/filteractionmissingtransportdialog.cpp
+       src/filter/dialog/filteractionmissingtransportdialog.h
+       src/filter/filtermanager.cpp
+       src/filter/filtermanager.h
+       src/filter/tests/filteractionmissingaccountdialoggui.cpp
+       src/filter/tests/filteractionmissingidentitydialoggui.cpp
+       src/filter/tests/filteractionmissingsoundurldialogui.cpp
+       src/filter/tests/filteractionmissingtagdialoggui.cpp
+       src/filter/tests/filteractionmissingtemplatedialoggui.cpp
+       src/filter/tests/filteractionmissingtransportdialoggui.cpp
+       src/folder/foldertreewidgetproxymodel.cpp
+       src/folder/foldertreewidgetproxymodel.h
+       src/mailcommon_private_export.h
+       src/mdn/mdnstateattribute.cpp
+       src/mdn/mdnstateattribute.h
+       src/mdn/sendmdnhandler.cpp
+       src/mdn/sendmdnhandler.h
+       src/snippets/snippetsmanager.cpp
+       src/snippets/snippetsmanager.h
+       src/snippets/snippetsmodel.cpp
+       src/snippets/snippetsmodel.h
+       src/snippets/snippetvariabledialog.cpp
+       src/snippets/snippetvariabledialog.h
+       src/widgets/redirectwidget.cpp
+       src/widgets/redirectwidget.h
+Copyright: Author Tobias Koenig <tokoe@kdab.com>
+           2013, Christian Mollekopf <mollekopf@kolabsys.com>
+           2009, Constantin Berzan <exit3219@gmail.com>
+           2007-2017, David Faure <faure@kde.org>
+           2010, KDAB
+           2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
+           2010, Leo Franchi <lfranchi@kde.org>
+           2009-2018, Laurent Montel <montel@kde.org>
+           2008, Omat Holding B.V <info@omat.nl>
+           2015, Sandro Knauß <bugs@sandroknauss.de>
+           2011, Tobias Koenig <tokoe@kde.org>
+License: LGPL-2+
+
+Files: src/job/backupjob.cpp
+       src/job/backupjob.h
+       src/tag/tag.cpp
+       src/tag/tag.h
+Copyright: 2009, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2012-2018, Laurent Montel <montel@kde.org>
+           2010, Thomas McGuire <mcguire@kde.org>
+License: GPL-2+3+KDEeV
+
+Files: po/ca/*
+       po/ca@valencia/*
+       po/uk/*
+Copyright: 2010-2018, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
+
+Files: debian/*
+Copyright: 2016, Maximiliano Curia <maxy@debian.org>
+License: LGPL-2+
+
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 of the license.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+3+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2 can be found in
+ `/usr/share/common-licenses/GPL-2', likewise, the complete text of the GNU
+ General Public License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or (at your
+ option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library General Public
+ License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2.1+3+KDEeV
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
+ .
+ The complete text of the GNU Lesser General Public License version 2.1
+ can be found in `/usr/share/common-licenses/LGPL-2.1'.
+ .
+ The complete text of the GNU Lesser General Public License version 3
+ can be found in `/usr/share/common-licenses/LGPL-3'.
